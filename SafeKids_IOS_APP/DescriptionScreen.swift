@@ -27,6 +27,12 @@ struct DescriptionScreen: View {
                     iconName: "person.2.fill"
                 )
                 
+                DescriptionCard(
+                    title: "Creadores",
+                    description: "Catalina Torres Arenas\nMiguel Angel Maldonado Bautista\nBryan Andres Suarez Sachez",
+                    iconName: "person.3.fill"
+                )
+                
             }
             .padding()
         }
